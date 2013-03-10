@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+alias bitch,=sudo
+alias simplehttpserver="python -m SimpleHTTPServer"
+
+alias gst="git status"
+
+alias gd='git diff'
+complete -o default -o nospace -F _git_diff gd

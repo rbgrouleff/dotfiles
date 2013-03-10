@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+GIT_PS1_SHOWDIRTYSTATE=true
+
+PS1='\[$LIGHT_RED\]\w\[$YELLOW\]$(__git_ps1 " (%s)") \[${LIGHT_BLUE}\][\j] \[${NORMAL}\]$ '

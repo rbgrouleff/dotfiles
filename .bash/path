@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Add Homebrew stuff to PATH
+if [ -d /usr/local/Cellar ]; then
+  export PATH=/usr/local/bin:$PATH
+  export PATH=$PATH:/usr/local/sbin
+fi
+
+# Setup some NODE_PATH stuff - is it even needed?!
+export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
