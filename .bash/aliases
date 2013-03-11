@@ -5,5 +5,7 @@ alias simplehttpserver="python -m SimpleHTTPServer"
 
 alias gst="git status"
 
-alias gd='git diff'
-complete -o default -o nospace -F _git_diff gd
+alias gdiff='git diff'
+complete -o default -o nospace -F _git_diff gdiff
+
+alias changes="git diff --name-only master origin/master"
