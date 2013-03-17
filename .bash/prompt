@@ -3,4 +3,4 @@
 # Show the git dirty state of the current dir
 GIT_PS1_SHOWDIRTYSTATE=true
 
-PS1='\[$LIGHT_RED\]\w\[$YELLOW\]$(__git_ps1 " (%s)") \[${LIGHT_BLUE}\][\j] \[${NORMAL}\]$ '
+PS1='\[${LIGHT_RED}\]\w\[${YELLOW}\]$(__git_ps1 " (%s)")\[${LIGHT_BLUE}\][\j]\[${NORMAL}\]$ '
