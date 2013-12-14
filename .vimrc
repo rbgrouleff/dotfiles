@@ -5,6 +5,7 @@ set background=dark
 colorscheme solarized
 
 set cursorline
+set nohlsearch
 
 set list listchars=tab:\ \ ,trail:·,nbsp:•
 
