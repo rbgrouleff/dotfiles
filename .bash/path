@@ -6,5 +6,7 @@ if [ -d /usr/local/Cellar ]; then
   export PATH=$PATH:/usr/local/sbin
 fi
 
+export PATH="$HOME/bin:$PATH"
+
 # Setup some NODE_PATH stuff - is it even needed?!
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
