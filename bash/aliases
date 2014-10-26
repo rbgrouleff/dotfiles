@@ -2,6 +2,7 @@
 
 alias bitch,=sudo
 alias simplehttpserver="python -m SimpleHTTPServer"
+alias rubyhttp="ruby -run -e httpd -- -p 8000 ."
 
 alias gst="git status"
 
