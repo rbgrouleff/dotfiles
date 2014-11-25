@@ -106,6 +106,11 @@ au BufNewFile,BufRead *.json set ft=javascript
 
 " Reset SCSS filetype
 au BufNewFile,BufRead *.scss set filetype=scss.css
+
+" Treat *.pde and *.ino as Arduino files
+au BufNewFile,BufRead *.pde set filetype=arduino
+au BufNewFile,BufRead *.ino set filetype=arduino
+
 " Map Cmd+X to close buffer
 nmap <D-X> :Bclose<CR>
 
