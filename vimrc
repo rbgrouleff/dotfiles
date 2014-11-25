@@ -104,6 +104,8 @@ set directory^=~/.vim/_temp//      " where to put swap files.
 " Treat JSON files like JavaScript
 au BufNewFile,BufRead *.json set ft=javascript
 
+" Reset SCSS filetype
+au BufNewFile,BufRead *.scss set filetype=scss.css
 " Map Cmd+X to close buffer
 nmap <D-X> :Bclose<CR>
 
