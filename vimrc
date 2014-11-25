@@ -120,3 +120,6 @@ nmap <D-7> <Leader>c<Space>
 vmap <D-7> <Leader>cc
 
 nmap ; :CtrlPBuffer<CR>
+
+" Change <Leader> to ,
+let mapleader=","
