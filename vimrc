@@ -15,6 +15,7 @@ set ruler
 syntax on
 filetype plugin indent on
 set encoding=utf-8
+set fileformats=unix
 set cursorline
 
 ""
@@ -91,7 +92,7 @@ set wildignore+=*/tmp/librarian/*,*/.vagrant/*,*/.kitchen/*,*/vendor/cookbooks/*
 " Ignore rails temporary asset caches
 set wildignore+=*/tmp/cache/assets/*/sprockets/*,*/tmp/cache/assets/*/sass/*
 
-" Disable temp and backup files
+" Ignore temp and backup files
 set wildignore+=*.swp,*~,._*
 
 ""
@@ -123,3 +124,15 @@ nmap ; :CtrlPBuffer<CR>
 
 " Change <Leader> to ,
 let mapleader=","
+
+""
+"" No arrows...
+""
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <right> <nop>
+nnoremap <left> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <right> <nop>
+inoremap <left> <nop>
