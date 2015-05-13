@@ -100,3 +100,9 @@
 [submodule "vim/bundle/arduino-syntax"]
 	path = vim/bundle/arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax.git
+[submodule "vim/bundle/eco"]
+	path = vim/bundle/eco
+	url = https://github.com/AndrewRadev/vim-eco.git
+[submodule "vim/bundle/rspec"]
+	path = vim/bundle/rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
