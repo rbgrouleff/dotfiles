@@ -109,3 +109,6 @@
 [submodule "vim/bundle/ag"]
 	path = vim/bundle/ag
 	url = git@github.com:rking/ag.vim.git
+[submodule "vim/bundle/scratch"]
+	path = vim/bundle/scratch
+	url = git@github.com:mtth/scratch.vim.git
