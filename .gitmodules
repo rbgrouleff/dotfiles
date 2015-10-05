@@ -112,3 +112,6 @@
 [submodule "vim/bundle/scratch"]
 	path = vim/bundle/scratch
 	url = git@github.com:mtth/scratch.vim.git
+[submodule "vim/bundle/vim-flay"]
+	path = vim/bundle/vim-flay
+	url = git@github.com:prophittcorey/vim-flay.git
