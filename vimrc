@@ -11,12 +11,14 @@ execute pathogen#infect()
 
 set nocompatible
 set relativenumber
+set number
 set ruler
 syntax on
 filetype plugin indent on
 set encoding=utf-8
 set fileformats=unix
 set cursorline
+set showmode
 
 ""
 "" Searching
@@ -105,12 +107,18 @@ set directory^=~/.vim/_temp//      " where to put swap files.
 " Treat JSON files like JavaScript
 au BufNewFile,BufRead *.json set ft=javascript
 
+" Treat ES6 files like JavaScript
+au BufNewFile,BufRead *.es6 set ft=javascript
+
 " Reset SCSS filetype
 au BufNewFile,BufRead *.scss set filetype=scss.css
 
 " Treat *.pde and *.ino as Arduino files
 au BufNewFile,BufRead *.pde set filetype=arduino
 au BufNewFile,BufRead *.ino set filetype=arduino
+
+" Treat *.asm files like nasm
+au BufNewFile,BufRead *.asm set filetype=nasm
 
 " Map Cmd+X to close buffer
 nmap <D-X> :Bclose<CR>
@@ -144,3 +152,25 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+""
+"" Selecta
+""
+" Run a given vim command on the results of fuzzy selecting from a given shell
+" command. See usage below.
+function! SelectaCommand(choice_command, selecta_args, vim_command)
+  try
+    let selection = system(a:choice_command . " | selecta " . a:selecta_args)
+  catch /Vim:Interrupt/
+    " Swallow the ^C so that the redraw below happens; otherwise there will be
+    " leftovers from selecta on the screen
+    redraw!
+    return
+  endtry
+  redraw!
+  exec a:vim_command . " " . selection
+endfunction
+
+" Find all files in all non-dot directories starting in the working directory.
+" Fuzzy select one of those. Open the selected file with :e.
+nnoremap <leader>f :call SelectaCommand("find * -type f", "", ":e")<cr>
