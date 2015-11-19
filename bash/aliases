@@ -4,9 +4,11 @@ alias bitch,=sudo
 alias simplehttpserver="python -m SimpleHTTPServer"
 alias rubyhttp="ruby -run -e httpd -- -p 8000 ."
 
+# Git aliases
 alias gst="git status"
-
 alias gdiff='git diff'
 complete -o default -o nospace -F _git_diff gdiff
-
 alias changes="git diff --name-only master origin/master"
+
+# Rails aliases
+alias rg="./bin/rails generate"
