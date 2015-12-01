@@ -115,3 +115,9 @@
 [submodule "vim/bundle/rust"]
 	path = vim/bundle/rust
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "vim/bundle/projectionist"]
+	path = vim/bundle/projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "vim/bundle/rake"]
+	path = vim/bundle/rake
+	url = https://github.com/tpope/vim-rake.git
