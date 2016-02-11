@@ -166,3 +166,7 @@
 	path = vim/bundle/open-url
 	url = https://github.com/henrik/vim-open-url.git
 	branch = master
+[submodule "vim/bundle/ruby-runner"]
+	path = vim/bundle/ruby-runner
+	url = https://github.com/henrik/vim-ruby-runner.git
+	branch = master
