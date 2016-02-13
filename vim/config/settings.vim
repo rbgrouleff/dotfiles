@@ -4,7 +4,8 @@ set fileformats=unix                  " Set unix file format
 syntax on                             " Syntax highlighting
 let g:solarized_termcolors=256
 set background=dark
-colorscheme solarized
+" colorscheme solarized
+color blackboard
 
 set backspace=indent,eol,start        " backspace through everything in insert mode
 set fillchars=vert:\                  " No pipes in vertical split separators
