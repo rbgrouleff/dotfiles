@@ -37,6 +37,8 @@ endfunction
 " Fuzzy select one of those. Open the selected file with :e.
 nnoremap <leader>f :call SelectaCommand("find * -type f", "", ":e")<cr>
 
+" BClose
+"
 nnoremap <silent> <leader>bd :Bclose<CR>
 
 " CtrlP
