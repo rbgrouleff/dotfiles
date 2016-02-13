@@ -170,3 +170,7 @@
 	path = vim/bundle/ruby-runner
 	url = https://github.com/henrik/vim-ruby-runner.git
 	branch = master
+[submodule "vim/bundle/HiLinkTrace"]
+	path = vim/bundle/HiLinkTrace
+	url = https://github.com/gerw/vim-HiLinkTrace.git
+	branch = master
