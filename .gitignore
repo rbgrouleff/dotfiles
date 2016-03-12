@@ -1,3 +1,4 @@
 *.swp
 **/*.netrwhist
 vim/_temp/**/*
+vim/_tmp/**/*
