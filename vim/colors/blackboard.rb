@@ -1,10 +1,12 @@
 # vim: nowrap fdm=marker
 # # colors {{{1
+red            = "FF3B00"
 bright_orange  = "FF5600"
 yolk_yellow    = "FFDE00"
 lemon_yellow   = "D8FA3C"
 green          = "61CE3C"
 light_blue     = "84A7C1"
+lighter_grey   = "C9C9C9"
 medium_grey    = "AEAEAE"
 deep_navy      = "0B1022"
 white          = "FFFFFF"
@@ -27,7 +29,7 @@ vim_colors "blackboard" do
   author "Drew Neil"
   notes  "Based on the 'Blackboard' theme from TextMate."
 
-  reset true 
+  reset true
   background :dark
 
   # GUI colors
@@ -35,7 +37,7 @@ vim_colors "blackboard" do
   Cursor :fg => black,   :bg => primary_yellow
   CursorLine :bg => navy
   LineNr :bg => dark_grey, :fg => light_grey
-  Folded :fg => deep_blue, :bg => off_black
+  Folded :fg => light_blue, :bg => off_black
   Pmenu :bg => light_blue
   Visual :bg => blue2
   Directory :fg => light_blue
@@ -53,13 +55,21 @@ vim_colors "blackboard" do
   Search :fg => black, :bg => pale_orange
   PreProc :fg => bright_orange
   Special :fg => light_orange  # Ruby string interpolation, NERDTree.
+  Todo :fg => white, :bg => bright_orange
+
+  # Diffs
+  DiffAdd :bg => green, :fg => black
+  DiffDelete :bg => red, :fg => white
+  DiffChange :bg => light_blue, :fg => black
+  DiffText :bg => yolk_yellow, :fg => black
 
   # StatusLine
   StatusLine  :fg => white, :bg => bright_orange, :gui => "italic"
   StatusLineNC  :fg => black, :bg => white, :gui => "NONE"
 
   #Invisible character colors
-  NonText :fg => blue_grey
+  #NonText :fg => blue_grey
+  NonText :fg => lighter_grey
   SpecialKey :fg => blue_grey
 
   #HTML Colors
@@ -69,7 +79,8 @@ vim_colors "blackboard" do
   link :rubyClass, :rubyDefine, :rubyInclude, :rubyAttribute, :to => :Keyword
   link :rubyConstant, :to => :Type
   link :rubySymbol, :to => :Constant
-  link :rubyInstanceVariable, :to => :Normal
+  #link :rubyInstanceVariable, :to => :Normal
+  rubyInstanceVariable :fg => terracotta
   link :rubyString, :rubyStringDelimiter, :to => :String
 
   #Rails Colors
