@@ -106,7 +106,7 @@ vim_colors "blackboard" do
 
   #Git colors
   gitcommitSelectedFile :fg => green
-  gitcommitDiscardedFile :fg => terracotta
+  gitcommitDiscardedFile :fg => red
   gitcommitWarning :fg => terracotta
   gitcommitBranch :fg => yolk_yellow
   gitcommitHeader :fg => light_blue

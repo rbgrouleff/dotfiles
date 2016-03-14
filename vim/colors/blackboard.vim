@@ -54,7 +54,7 @@ hi OL4                    guifg=#D8FA3C ctermfg=191  gui=NONE cterm=NONE
 hi BT1                    guifg=#AEAEAE ctermfg=145  gui=NONE cterm=NONE
 hi markdownCode           guifg=#61CE3C ctermfg=77   guibg=#070A15 ctermbg=232  gui=NONE cterm=NONE
 hi gitcommitSelectedFile  guifg=#61CE3C ctermfg=77   gui=NONE cterm=NONE
-hi gitcommitDiscardedFile guifg=#C23621 ctermfg=130  gui=NONE cterm=NONE
+hi gitcommitDiscardedFile guifg=#FF3B00 ctermfg=202  gui=NONE cterm=NONE
 hi gitcommitWarning       guifg=#C23621 ctermfg=130  gui=NONE cterm=NONE
 hi gitcommitBranch        guifg=#FFDE00 ctermfg=220  gui=NONE cterm=NONE
 hi gitcommitHeader        guifg=#84A7C1 ctermfg=109  gui=NONE cterm=NONE
