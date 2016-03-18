@@ -174,3 +174,7 @@
 	path = vim/bundle/HiLinkTrace
 	url = https://github.com/gerw/vim-HiLinkTrace.git
 	branch = master
+[submodule "vim/bundle/slim"]
+	path = vim/bundle/slim
+	url = https://github.com/slim-template/vim-slim.git
+	branch = master
