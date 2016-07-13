@@ -6,7 +6,7 @@ alias rubyhttp="ruby -run -e httpd -- -p 8000 ."
 
 # Git aliases
 alias gst="git status"
-alias gdiff='git diff'
+alias gdiff='git diff --compaction-heuristic'
 complete -o default -o nospace -F _git_diff gdiff
 alias changes="git diff --name-only master origin/master"
 
