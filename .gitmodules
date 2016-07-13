@@ -190,3 +190,7 @@
 	path = vim/bundle/dispatch
 	url = https://github.com/tpope/vim-dispatch.git
 	branch = master
+[submodule "vim/bundle/nginx"]
+	path = vim/bundle/nginx
+	url = https://github.com/littleq0903/vim-nginx.git
+	branch = master
