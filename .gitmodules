@@ -194,3 +194,7 @@
 	path = vim/bundle/nginx
 	url = https://github.com/littleq0903/vim-nginx.git
 	branch = master
+[submodule "vim/bundle/elm"]
+	path = vim/bundle/elm
+	url = https://github.com/ElmCast/elm-vim.git
+	branch = master
