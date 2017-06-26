@@ -12,3 +12,6 @@ alias changes="git diff --name-only master origin/master"
 
 # Rails aliases
 alias rg="./bin/rails generate"
+
+# typo aliases
+alias brwe=brew
