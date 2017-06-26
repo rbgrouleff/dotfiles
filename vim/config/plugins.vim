@@ -55,3 +55,5 @@ set wildignore+=*.swp,*~,._*
 
 " Syntastic
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_scss_sass_quiet_messages = {
+  \ "regex": 'File to import not found or unreadable', }
