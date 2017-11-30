@@ -15,6 +15,11 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+"
+" Rails.vim mappings
+"
+map <Leader>z :Runner<CR>
+
 ""
 "" Selecta
 ""

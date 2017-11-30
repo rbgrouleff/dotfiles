@@ -198,3 +198,6 @@
 	path = vim/bundle/matchit
 	url = https://github.com/adelarsq/vim-matchit.git
 	branch = master
+[submodule "vim/bundle/tmux-navigator"]
+	path = vim/bundle/tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
