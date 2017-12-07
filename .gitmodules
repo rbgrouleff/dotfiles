@@ -201,3 +201,16 @@
 [submodule "vim/bundle/tmux-navigator"]
 	path = vim/bundle/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+	branch = master
+[submodule "vim/bundle/html5"]
+	path = vim/bundle/html5
+	url = https://github.com/othree/html5.vim.git
+	branch = master
+[submodule "vim/bundle/css3-syntax"]
+	path = vim/bundle/css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+	branch = master
+[submodule "vim/bundle/nova"]
+	path = vim/bundle/nova
+	url = https://github.com/trevordmiller/nova-vim.git
+	branch = master

@@ -2,10 +2,18 @@ set encoding=utf-8                    " Set the encoding explicitly
 set fileformats=unix                  " Set unix file format
 
 syntax on                             " Syntax highlighting
-let g:solarized_termcolors=256
-set background=dark
+
+" color stuff
+set t_8f=[38;2;%lu;%lu;%lum
+set t_8b=[48;2;%lu;%lu;%lum
+
+colorscheme nova_rb
+
+set termguicolors
+" let g:solarized_termcolors=256
+" set background=dark
 " colorscheme solarized
-color blackboard
+" color blackboard
 
 set backspace=indent,eol,start        " backspace through everything in insert mode
 set fillchars=vert:\                  " No pipes in vertical split separators
