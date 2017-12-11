@@ -134,10 +134,6 @@
 	path = vim/bundle/rspec
 	url = https://github.com/thoughtbot/vim-rspec.git
 	branch = master
-[submodule "vim/bundle/ag"]
-	path = vim/bundle/ag
-	url = https://github.com/rking/ag.vim.git
-	branch = master
 [submodule "vim/bundle/scratch"]
 	path = vim/bundle/scratch
 	url = https://github.com/mtth/scratch.vim.git
