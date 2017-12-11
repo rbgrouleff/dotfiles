@@ -210,3 +210,6 @@
 	path = vim/bundle/nova
 	url = https://github.com/trevordmiller/nova-vim.git
 	branch = master
+[submodule "vim/bundle/ag"]
+	path = vim/bundle/ag
+	url = https://github.com/rking/ag.vim.git
