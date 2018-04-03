@@ -21,6 +21,10 @@ noremap j gj
 " Un-highlight search
 nnoremap <leader><leader> :noh<CR>
 
+" Center next matched string on the screen
+nnoremap n nzz
+nnoremap N Nzz
+
 " Open URL from this line (OS X only)
 "map <leader>u :call OpenURL()<CR>
 

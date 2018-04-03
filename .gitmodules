@@ -214,3 +214,6 @@
 	path = vim/bundle/ag
 	url = https://github.com/albfan/ag.vim.git
 	branch = master
+[submodule "vim/bundle/kickass-syntax"]
+	path = vim/bundle/kickass-syntax
+	url = https://github.com/gryf/kickass-syntax-vim.git

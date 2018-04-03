@@ -1,5 +1,6 @@
 " Change <Leader> to ,
 let mapleader=","
+let localmapleader=" "
 
 runtime config/plugins.vim
 runtime config/settings.vim

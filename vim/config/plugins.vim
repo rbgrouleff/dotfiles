@@ -18,7 +18,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 "
 " Rails.vim mappings
 "
-map <Leader>z :Runner<CR>
+map <Leader>z :.Rails<CR>
 
 ""
 "" Selecta
@@ -61,4 +61,11 @@ set wildignore+=*.swp,*~,._*
 " Syntastic
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_scss_sass_quiet_messages = {
-  \ "regex": 'File to import not found or unreadable', }
+      \ "regex": 'File to import not found or unreadable', }
+let g:syntastic_eruby_ruby_quiet_messages =
+      \ {'regex': ['possibly useless use of a variable in void context',
+      \            'possibly useless use of - in void context',]
+      \ }
+
+" Configure Ack.vim to use ag instead of ack
+let g:ackprg = 'ag --vimgrep --smart-case'
