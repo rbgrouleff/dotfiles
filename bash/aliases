@@ -12,6 +12,7 @@ alias changes="git diff --name-only master origin/master"
 
 # Rails aliases
 alias rg="./bin/rails generate"
+alias bex="bundle exec"
 
 # typo aliases
 alias brwe=brew
