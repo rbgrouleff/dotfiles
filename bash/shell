@@ -6,6 +6,6 @@ export LANG=en_US.UTF-8
 set -o vi # Vi Bash command mode
 set -o notify # Notify immediatly on bg job completion
 
-export EDITOR=/usr/bin/vim # Vim as default editor
+export EDITOR=/usr/local/bin/vim # Vim as default editor
 
 export TERM=screen-256color
