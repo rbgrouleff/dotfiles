@@ -64,6 +64,8 @@ let g:syntastic_scss_sass_quiet_messages = {
       \ "regex": 'File to import not found or unreadable', }
 let g:syntastic_eruby_ruby_quiet_messages =
       \ {'regex': ['possibly useless use of a variable in void context',
+      \            'possibly useless use of \* in void context',
+      \            'possibly useless use of + in void context',
       \            'possibly useless use of - in void context',]
       \ }
 
