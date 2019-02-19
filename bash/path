@@ -8,6 +8,9 @@ fi
 
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/Applications/Vice/tools:$PATH"
 
 # Setup some NODE_PATH stuff - is it even needed?!
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+
+export CLASSPATH=/Applications/KickAssembler/KickAss.jar:$CLASSPATH
