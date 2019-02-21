@@ -5,7 +5,12 @@ _tmattach_completions()
     return
   fi
 
-  COMPREPLY=($(compgen -W "$(tmux ls -F '#S' 2> /dev/null)" "${COMP_WORDS[1]}"))
+  SESSIONS=$(tmux ls -F '#S' 2> /dev/null)
+  if [ $? -eq 0 ]; then
+    COMPREPLY=($(compgen -W "${SESSIONS}" "${COMP_WORDS[1]}"))
+  else
+    COMPREPLY=()
+  fi
 }
 
 complete -F _tmattach_completions tmattach
