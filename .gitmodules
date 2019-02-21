@@ -213,3 +213,6 @@
 [submodule "vim/bundle/kickass-syntax"]
 	path = vim/bundle/kickass-syntax
 	url = https://github.com/gryf/kickass-syntax-vim.git
+[submodule "vim/bundle/rust"]
+	path = vim/bundle/rust
+	url = https://github.com/rust-lang/rust.vim
