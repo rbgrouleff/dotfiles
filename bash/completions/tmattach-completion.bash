@@ -5,7 +5,7 @@ _tmattach_completions()
     return
   fi
 
-  COMPREPLY=($(compgen -W "$(tmux ls -F '#S')" "${COMP_WORDS[1]}"))
+  COMPREPLY=($(compgen -W "$(tmux ls -F '#S' 2> /dev/null)" "${COMP_WORDS[1]}"))
 }
 
 complete -F _tmattach_completions tmattach
