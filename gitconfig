@@ -1,0 +1,10 @@
+[user]
+	email = rasmus@nerdd.dk
+	name = Rasmus Bang Grouleff
+	signingkey = 011C4EBBD943A7BF
+[push]
+	default = simple
+[gpg]
+	program = gpg2
+[core]
+	excludesfile = /Users/rasmus/.config/git/ignore
