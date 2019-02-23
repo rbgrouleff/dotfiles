@@ -7,7 +7,7 @@ SCRIPT_PATH="$(dirname $(readlink $BASH_SOURCE))"
 . "$SCRIPT_PATH/bash/completion"
 . "$SCRIPT_PATH/bash/prompt"
 . "$SCRIPT_PATH/bash/aliases"
-. "$SCRIPT_PATH/bash/chruby"
+. "$SCRIPT_PATH/bash/asdf"
 . "$SCRIPT_PATH/bash/gpg"
 . "$SCRIPT_PATH/bash/autojump"
 
