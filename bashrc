@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-SCRIPT_PATH="$HOME/$(dirname $(readlink $BASH_SOURCE))"
+SCRIPT_PATH="$(dirname $(readlink $BASH_SOURCE))"
 
 . "$SCRIPT_PATH/bash/colors"
 . "$SCRIPT_PATH/bash/shell"
