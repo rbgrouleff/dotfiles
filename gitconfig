@@ -7,4 +7,4 @@
 [gpg]
 	program = gpg2
 [core]
-	excludesfile = /Users/rasmus/.config/git/ignore
+	excludesFile = ~/.gitignore
