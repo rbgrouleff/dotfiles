@@ -1,6 +1,6 @@
 figure pre {
   text-align: initial;
 }
-div.post > div.content > div.content-body a {
+body[data-dark-theme="true"] div.post > div.content > div.content-body a {
   color: #4cd1ff;
 }
