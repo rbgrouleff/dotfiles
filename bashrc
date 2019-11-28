@@ -10,6 +10,8 @@ SCRIPT_PATH="$(dirname $(readlink $BASH_SOURCE))"
 . "$SCRIPT_PATH/bash/asdf"
 . "$SCRIPT_PATH/bash/gpg"
 . "$SCRIPT_PATH/bash/autojump"
+. "$SCRIPT_PATH/bash/sshagent"
+. "$SCRIPT_PATH/bash/thefuck"
 
 if [ -e "$HOME/.homebrewrc" ]
 then
