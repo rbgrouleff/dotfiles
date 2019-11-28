@@ -9,6 +9,7 @@ fi
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="/Applications/Vice/tools:$PATH"
+export PATH="$PATH:`yarn global bin`"
 
 # Setup some NODE_PATH stuff - is it even needed?!
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
