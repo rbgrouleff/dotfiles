@@ -1,0 +1,3 @@
+div[class~="videoElementWrapper"] {
+  max-width: revert !important;
+}
