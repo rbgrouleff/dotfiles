@@ -8,3 +8,5 @@
 	program = gpg2
 [core]
 	excludesFile = ~/.gitignore
+[pull]
+	rebase = true
