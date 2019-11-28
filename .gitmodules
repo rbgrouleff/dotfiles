@@ -182,10 +182,6 @@
 	path = vim/bundle/nginx
 	url = https://github.com/littleq0903/vim-nginx.git
 	branch = master
-[submodule "vim/bundle/elm"]
-	path = vim/bundle/elm
-	url = https://github.com/Zaptic/elm-vim.git
-	branch = master
 [submodule "vim/bundle/matchit"]
 	path = vim/bundle/matchit
 	url = https://github.com/adelarsq/vim-matchit.git
