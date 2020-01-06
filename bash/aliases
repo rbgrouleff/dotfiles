@@ -8,6 +8,7 @@ alias gst="git status"
 alias gdiff='git diff --compaction-heuristic'
 complete -o default -o nospace -F _git_diff gdiff
 alias changes="git diff --name-only master origin/master"
+alias gsubup="git submodule update --recursive --remote"
 
 # Rails aliases
 alias rg="./bin/rails generate"
