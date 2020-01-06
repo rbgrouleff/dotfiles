@@ -4,3 +4,4 @@ vim/_temp/**/*
 vim/_tmp/**/*
 vim/sessions/**/*
 vim/view/**/*
+vim/plugged/**/*
