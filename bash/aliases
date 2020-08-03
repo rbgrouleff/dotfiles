@@ -19,3 +19,5 @@ alias brwe=brew
 
 # tmux aliases
 alias tmattach="tmux -CC new -A -s"
+
+alias elm-repl="elm repl"
