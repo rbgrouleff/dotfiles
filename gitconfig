@@ -10,3 +10,6 @@
 	excludesFile = ~/.gitignore
 [pull]
 	rebase = true
+[init]
+	templateDir = /Users/rasmus/.git-template
+	defaultBranch = main
