@@ -71,3 +71,4 @@ let g:syntastic_eruby_ruby_quiet_messages =
 
 " Configure Ack.vim to use ag instead of ack
 let g:ackprg = 'ag --vimgrep --smart-case'
+let g:snipMate = { 'snippet_version' : 1 }
